@@ -1,0 +1,29 @@
+.dadosCandidato {
+  width: 100%;
+  height: 200px;
+  border: solid 1px #000;
+}
+
+.dadosEndereco {
+  width: 100%;
+  height: 300px;
+  border: solid 1px #000;
+}
+
+.dadosFormacao {
+  width: 100%;
+  height: 300px;
+  border: solid 1px #000;
+}
+
+.dadosqualidade {
+  width: 100%;
+  height: 350px;
+  border: solid 1px #000;
+}
+.itemQualidade {
+  width: 100%;
+  height: 50px;
+  border: solid 1px #000;
+  background-color: aqua;
+}

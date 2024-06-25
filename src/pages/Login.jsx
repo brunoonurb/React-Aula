@@ -53,6 +53,7 @@ function Login() {
   }
   
   async function submitForm(event) {
+    alert("aqui")
     event.preventDefault();
     setValidated(true);
 
@@ -102,6 +103,7 @@ function Login() {
             <Col md={6} className="box">
               <h1 className="text-center">E-COMMERCE HARVE</h1>
               <Form noValidate validated={validated} onSubmit={submitForm}>
+                {/* <form onSubmit={submitForm}> */}
                 <Row style={{ margin: "7%" }}>
                   <Col>
                     <Form.Group controlId="validationEmail">
@@ -127,6 +129,7 @@ function Login() {
                     <Form.Group controlId="validationCustomUsername">
                       <Form.Label>Senha</Form.Label>
                       <InputGroup hasValidation>
+                         {/* <input type="text" onFocus={onchangeEmail}  required/> */}
                         <InputGroup.Text id="inputSenha">*</InputGroup.Text>
                         <Form.Control
                           type="password"
@@ -150,6 +153,7 @@ function Login() {
                   </Col>
                 </Row>
               </Form>
+              {/* </form> */}
             </Col>
           </Row>
         </Col>
