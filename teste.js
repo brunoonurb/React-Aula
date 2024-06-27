@@ -38,13 +38,15 @@
 
 
 
-const pessoa = {nome:'bruno', idade:31, apelido:"bru", endereco:'sjs'}
+// const pessoa = {nome:'bruno', idade:31, apelido:"bru", endereco:'sjs'}
 
 
-const {endereco, idade} = pessoa
+// const {endereco, idade} = pessoa
 
-const newPessoa =  {pessoa, cidade: 'CUritiba', uf:'pr' }
+// const newPessoa =  {pessoa, cidade: 'CUritiba', uf:'pr' }
 
-console.log(endereco, idade);
+// console.log(endereco, idade);
 
-console.log(newPessoa);
+// console.log(newPessoa);
+
+

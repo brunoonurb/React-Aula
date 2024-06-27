@@ -51,9 +51,8 @@ function Login() {
       theme: "dark",
     });
   }
-  
+
   async function submitForm(event) {
-    alert("aqui")
     event.preventDefault();
     setValidated(true);
 
@@ -73,13 +72,13 @@ function Login() {
       );
       mensagemDeSucesso("Logado com sucesso");
       const data = await response.json();
-      const token = data.token
-      const nomeUsuario = data.user.name
-      const emailUsario = data.user.email
+      const token = data.token;
+      const nomeUsuario = data.user.name;
+      const emailUsario = data.user.email;
 
-      localStorage.setItem('token', token)
-      localStorage.setItem('nomeUsuario', nomeUsuario)
-      localStorage.setItem('emailUsario', emailUsario)
+      localStorage.setItem("token", token);
+      localStorage.setItem("nomeUsuario", nomeUsuario);
+      localStorage.setItem("emailUsario", emailUsario);
 
       navigate("/");
     } catch (error) {
@@ -129,7 +128,7 @@ function Login() {
                     <Form.Group controlId="validationCustomUsername">
                       <Form.Label>Senha</Form.Label>
                       <InputGroup hasValidation>
-                         {/* <input type="text" onFocus={onchangeEmail}  required/> */}
+                        {/* <input type="text" onFocus={onchangeEmail}  required/> */}
                         <InputGroup.Text id="inputSenha">*</InputGroup.Text>
                         <Form.Control
                           type="password"
