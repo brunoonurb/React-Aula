@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../../../_service/api";
+import api from "../_service/api";
 import CardProduto from "./CardProduto";
 import { Col, Row } from "react-bootstrap";
 
