@@ -1,21 +1,18 @@
 import { ToastContainer } from "react-toastify";
 import "./App.css";
 
-import "react-toastify/dist/ReactToastify.css";
 import "font-awesome/css/font-awesome.css";
-import { RouteApp } from "./route";
+import "react-toastify/dist/ReactToastify.css";
 import CarrinhoContextProvider from "./hooks/CarrinhoContext.js";
-import { TesteContextProvider } from "./hooks/aula5/TesteContext.js";
+import { RouteApp } from "./route";
 
 function App() {
   return (
     <>
-      <TesteContextProvider>
-        <CarrinhoContextProvider>
-          <ToastContainer />
-          <RouteApp />
-        </CarrinhoContextProvider>
-      </TesteContextProvider>
+      <CarrinhoContextProvider>
+        <ToastContainer />
+        <RouteApp />
+      </CarrinhoContextProvider>
     </>
   );
 }
