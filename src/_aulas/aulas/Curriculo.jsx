@@ -1,6 +1,6 @@
-import { DadosCandidato } from "../../componentes/aula/DadosCandidato.jsx";
-import { DadosEndereco } from "../../componentes/aula/DadosEndereco.jsx";
-import { DadosQualidade } from "../../componentes/aula/DadosQualidade.jsx";
+import { DadosCandidato } from "../anteriores/aula/DadosCandidato";
+import { DadosEndereco } from "../anteriores/aula/DadosEndereco";
+import { DadosQualidade } from "../anteriores/aula/DadosQualidade";
 
 function Curriculo() {
   const itensQualidades = [

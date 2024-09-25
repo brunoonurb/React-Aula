@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import apiIbge from "../../_service/aula/apiIbge";
+import apiIbge from "../../../_service/aula/apiIbge";
+
 
 function IBGEv2(props) {
   const [municipios, setMunicipios] = useState([]);
